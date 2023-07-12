@@ -12,15 +12,15 @@
 ## Enable IP Routing
 
 1. First, open **regedit**:
-  - Press **Win** + **R**
-  - Type `regedit`
-  - Press **Enter**
+   - Press **Win** + **R**
+   - Type `regedit`
+   - Press **Enter**
 2. Go to `HKEY_LOCAL_MACHINE` > `SYSTEM` > `CurrentControlSet` > `Services` > `Tcpip` > `Parameters` > `IP Enable Router`
 3. Change the `Value Data` from `0` to `1`.
 4. Open the **Windows Services Manager**:
-  - Press **Win** + **R**
-  - Type `services.msc`
-  - Press **Enter**
+   - Press **Win** + **R**
+   - Type `services.msc`
+   - Press **Enter**
 5. Find **Routing and Remote Access**, right click on it, and press **Properties**.
    Change the `Startup Type` to `Automatic`:
 
